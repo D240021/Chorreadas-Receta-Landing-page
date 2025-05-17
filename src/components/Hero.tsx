@@ -1,6 +1,6 @@
 import React from 'react';
 export function Hero() {
-  return <section id="hero" className="w-full bg-[url('https://images.unsplash.com/photo-1604147706283-d7119b5b822c?q=80&w=2187&auto=format&fit=crop')] bg-cover bg-center">
+  return <section id="hero" className="w-full bg-[url('./imagen-chorreadas.png')] bg-cover bg-center">
       <div className="w-full min-h-screen bg-black bg-opacity-50 flex items-center justify-center">
         <div className="container mx-auto px-4 py-20 mt-16 text-center">
           <h1 className="text-4xl md:text-6xl font-bold text-amber-50 mb-6 animate-fade-in">
