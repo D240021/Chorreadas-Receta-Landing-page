@@ -31,16 +31,16 @@ export function Header() {
         {/* Desktop navigation */}
         <nav className="hidden md:flex space-x-8">
           {[{
-          name: 'Home',
+          name: 'Inicio',
           id: 'hero'
         }, {
-          name: 'Recipe',
+          name: 'Receta',
           id: 'recipe'
         }, {
           name: 'Videos',
           id: 'videos'
         }, {
-          name: 'Register',
+          name: 'Registrarse',
           id: 'register'
         }].map(item => <button key={item.id} onClick={() => scrollToSection(item.id)} className="text-amber-50 hover:text-amber-200 transition-colors font-medium">
               {item.name}
