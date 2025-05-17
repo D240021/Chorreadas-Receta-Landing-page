@@ -1,14 +1,17 @@
 import React from 'react';
 import { ChevronRightIcon, ClockIcon, UsersIcon, ScaleIcon } from 'lucide-react';
 export function RecipeDetails() {
-  const ingredients = ['3 tazas de maíz tierno', '1/2 taza de azúcar', '1/4 de taza de leche', '1 huevo', '1 cucharadita de vainilla', '1/2 cucharadita de sal', '1 cucharadita de polvo de hornear', '1/2 taza de harina de trigo', '2 cucharadas de mantequilla derretida'];
+  
+    const ingredients = ['3 tazas de maíz tierno', '1/2 taza de azúcar', '1/4 de taza de leche', '1 huevo', '1 cucharadita de vainilla', '1/2 cucharadita de sal', '1 cucharadita de polvo de hornear', '1/2 taza de harina de trigo', '2 cucharadas de mantequilla derretida'];
+
+
   const steps = ['Limpiar y rallar el maíz en caso de utilizar maíz tierno fresco. Si se utiliza maíz seco, este debe de ser molido para obtener una consistencia suave.', 'En un tazón grande, se mezcla el maíz rallado, el azúcar, la leche, el huevo, la vainilla y la sal. Se agrega la harina de trigo y el polvo de hornear. Se debe mezclar hasta obtener una masa suave pero espesa, en caso de estar muy líquida, se debe agregar un poco más de harina.', 'Se calienta un sartén a fuego medio y se añade un poco de mantequilla para que no se peguen a la superficie. Después, se vierte una porción de la mezcla en el sartén, formando pequeñas tortas. Por último, se cocina de 3 a 4 minutos por cada lado de la torta hasta que estén bien cocidas por dentro.', 'Se sirven las chorreadas calientes. Estas pueden ser acompañadas con crema, miel, queso fresco o natilla.'];
   return <section id="recipe" className="py-20 bg-white w-full">
       <div className="container mx-auto px-4">
         <h2 className="text-3xl md:text-4xl font-bold text-amber-800 mb-12 text-center">
           Receta de Chorreadas
         </h2>
-        {/* New History Section */}
+                {/* New History Section */}
         <div className="max-w-4xl mx-auto mb-16">
           <h3 className="text-2xl font-bold text-amber-800 mb-6 text-center">
             Historia de las Chorreadas
