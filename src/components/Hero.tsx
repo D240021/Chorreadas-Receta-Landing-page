@@ -5,7 +5,7 @@ export function Hero() {
   return (
     <section
       id="hero"
-      className="w-full bg-[url('./imagen-chorreadas.png')] bg-cover bg-center"
+      className="w-full bg-[url('/imagen-chorreadas.png')] bg-cover bg-center"
     >
       <div className="w-full min-h-screen bg-black bg-opacity-50 flex items-center justify-center">
         <motion.div
