@@ -51,16 +51,16 @@ export function Header() {
       {isMenuOpen && <div className="md:hidden bg-amber-800 bg-opacity-95">
           <div className="container mx-auto px-4 py-4 flex flex-col space-y-4">
             {[{
-          name: 'Home',
+          name: 'Inicio',
           id: 'hero'
         }, {
-          name: 'Recipe',
+          name: 'Receta',
           id: 'recipe'
         }, {
           name: 'Videos',
           id: 'videos'
         }, {
-          name: 'Register',
+          name: 'Registrarse',
           id: 'register'
         }].map(item => <button key={item.id} onClick={() => scrollToSection(item.id)} className="text-amber-50 hover:text-amber-200 transition-colors font-medium py-2 text-left">
                 {item.name}
